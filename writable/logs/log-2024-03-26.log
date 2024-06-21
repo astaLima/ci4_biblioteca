@@ -1,0 +1,18 @@
+CRITICAL - 2024-03-26 16:23:06 --> Error: Call to undefined function setAutoRoute()
+in APPPATH/Config/Routes.php on line 9.
+ 1 SYSTEMPATH/Router/RouteCollection.php(344): require()
+ 2 SYSTEMPATH/CLI/Console.php(39): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 ROOTPATH/spark(102): CodeIgniter\CLI\Console->run()
+CRITICAL - 2024-03-26 16:24:15 --> Error: Call to undefined function setAutoRoute()
+in APPPATH/Config/Routes.php on line 9.
+ 1 SYSTEMPATH/Router/RouteCollection.php(344): require()
+ 2 SYSTEMPATH/CLI/Console.php(39): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 ROOTPATH/spark(102): CodeIgniter\CLI\Console->run()
+CRITICAL - 2024-03-26 16:29:09 --> Error: Call to undefined function setAutoRoute()
+in APPPATH/Config/Routes.php on line 9.
+ 1 SYSTEMPATH/Router/RouteCollection.php(344): require()
+ 2 SYSTEMPATH/CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH/CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/opt/lampp/htdocs/ci4_biblioteca/public/index.php')
